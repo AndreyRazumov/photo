@@ -1,4 +1,4 @@
-## :camera: [***Проект: Путешествие по России***](https://andreyrazumov.github.io/russian-travel/index.html "Путешествие по России") :camera:
+## :camera: [***Проект: Курс по фотографии***](https://andreyrazumov.github.io/photo/ "Курс по фотографии") :camera:
 ____
 
 ### Описание проекта
