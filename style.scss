@@ -4,6 +4,7 @@ $bgWhite: #fff;
 $bgBlack: #000;
 $textHeader: #FBFBFB;
 $textBlack: #000;
+$textWhite: #fff;
 
 @mixin markup ($bgColor, $textColor: #000, $interval: 50px){
   font-family: 'Roboto', sans-serif;
@@ -163,4 +164,43 @@ $textBlack: #000;
 }
 
 
+.camera {
+  @include markup ($bgBlack, $textWhite);
 
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  &__name {
+    font-weight: 400;
+    font-size: 122px;
+    line-height: 122px;
+    margin: 0 0 150px;
+  }
+
+  &__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  &__image {
+    background: url(../img/caleb-moreno.png) no-repeat;
+    background-size: contain;
+    max-width: 642px;
+    width: 100%;
+    height: 685px;
+  }
+}

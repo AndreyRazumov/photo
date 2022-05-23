@@ -206,3 +206,61 @@
   line-height: 28px;
   max-width: 291px;
 }
+
+.camera {
+  font-family: 'Roboto', sans-serif;
+  background-color: #000;
+  color: #fff;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+}
+
+.camera__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.camera__subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.camera__name {
+  font-weight: 400;
+  font-size: 122px;
+  line-height: 122px;
+  margin: 0 0 150px;
+}
+
+.camera__description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.camera__image {
+  background: url(../img/caleb-moreno.png) no-repeat;
+  background-size: contain;
+  max-width: 642px;
+  width: 100%;
+  height: 685px;
+}
